@@ -12,6 +12,6 @@ jobs:
         run: echo "SAST!"
       - name: Docker-HUB
         run: echo "Docker HUB!"
-      - name: DAST - ZAP
+      - name: DAST-ZAP
         run: "DAST -ZAP !"
     
